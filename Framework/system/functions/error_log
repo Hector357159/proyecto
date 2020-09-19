@@ -1,0 +1,25 @@
+[08-Jan-2018 15:52:19 UTC] PHP Warning:  fopen(/production/plugins/bower_components/typeahead.js-master/nhl.json): failed to open stream: No such file or directory in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 19
+[08-Jan-2018 15:52:19 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 20
+[08-Jan-2018 15:52:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:19:08 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:19:08 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:19:10 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:19:10 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:19:11 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:19:11 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:19:31 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:19:31 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 22
+[08-Jan-2018 16:22:11 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 18
+[08-Jan-2018 16:22:11 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 18
+[08-Jan-2018 16:22:11 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:22:11 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:22:35 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 18
+[08-Jan-2018 16:22:35 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 18
+[08-Jan-2018 16:22:35 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:22:35 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:23:08 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:23:08 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:27:45 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:27:45 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:27:49 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21
+[08-Jan-2018 16:27:49 UTC] PHP Warning:  utf8_encode() expects parameter 1 to be string, array given in /home/irvincabezas/public_html/production/app/system/functions/json_encode.php on line 21

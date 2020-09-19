@@ -1,0 +1,868 @@
+[03-Apr-2018 19:03:46 America/El_Salvador] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/irvincabezas/public_html/production/app/views/general/header.php on line 24
+[03-Apr-2018 19:03:46 America/El_Salvador] PHP Notice:  Undefined variable: result_messages in /home/irvincabezas/public_html/production/app/views/general/header.php on line 38
+[03-Apr-2018 19:03:46 America/El_Salvador] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/irvincabezas/public_html/production/app/views/general/header.php on line 38
+[03-Apr-2018 19:03:46 America/El_Salvador] PHP Notice:  Undefined variable: res1 in /home/irvincabezas/public_html/production/app/views/general/header.php on line 176
+[03-Apr-2018 19:03:46 America/El_Salvador] PHP Notice:  Undefined variable: res1 in /home/irvincabezas/public_html/production/app/views/general/header.php on line 182
+[03-Apr-2018 19:03:46 America/El_Salvador] PHP Notice:  Undefined variable: res1 in /home/irvincabezas/public_html/production/app/views/general/header.php on line 183
+[03-Apr-2018 19:03:46 America/El_Salvador] PHP Notice:  Undefined variable: res1 in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4[04-Apr-2018 01:11:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/irvincabezas/public_html/production/app/get-logs.php on line 187
+[04-Apr-2018 01:13:51 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/get-logs.php on line 7
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/get-logs.php on line 20
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/get-logs.php on line 38
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/get-logs.php on line 48
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[03-Apr-2018 19:13:51 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[03-Apr-2018 19:14:08 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[03-Apr-2018 19:14:08 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[03-Apr-2018 19:14:08 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[03-Apr-2018 19:14:08 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[03-Apr-2018 19:14:08 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[04-Apr-2018 02:07:05 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/get-logs.php on line 7
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/get-logs.php on line 20
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/get-logs.php on line 38
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/get-logs.php on line 48
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[03-Apr-2018 20:07:05 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[03-Apr-2018 20:08:04 America/El_Salvador] PHP Notice:  Undefined variable: rest in /home/irvincabezas/public_html/production/app/get-logs.php on line 179
+[03-Apr-2018 20:08:04 America/El_Salvador] PHP Notice:  Undefined variable: rest in /home/irvincabezas/public_html/production/app/get-logs.php on line 179
+[04-Apr-2018 02:24:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/irvincabezas/public_html/production/app/get-logs.php on line 183
+[04-Apr-2018 02:24:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/irvincabezas/public_html/production/app/get-logs.php on line 183
+[04-Apr-2018 02:28:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/irvincabezas/public_html/production/app/get-logs.php on line 199
+[04-Apr-2018 02:28:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/irvincabezas/public_html/production/app/get-logs.php on line 199
+[04-Apr-2018 02:28:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/irvincabezas/public_html/production/app/get-logs.php on line 199
+[04-Apr-2018 03:07:09 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/get-logs.php on line 7
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/get-logs.php on line 20
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/get-logs.php on line 38
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/get-logs.php on line 48
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[03-Apr-2018 21:07:09 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[03-Apr-2018 21:07:10 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[03-Apr-2018 21:07:10 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[03-Apr-2018 21:07:10 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[03-Apr-2018 21:07:10 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[03-Apr-2018 21:07:10 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[03-Apr-2018 21:07:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[03-Apr-2018 21:07:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[03-Apr-2018 21:07:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[03-Apr-2018 21:07:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[03-Apr-2018 21:07:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[03-Apr-2018 22:13:48 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[03-Apr-2018 22:13:48 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[03-Apr-2018 22:13:48 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[03-Apr-2018 22:13:48 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[03-Apr-2018 22:13:48 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[03-Apr-2018 22:13:48 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[03-Apr-2018 22:13:48 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[04-Apr-2018 04:15:05 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[03-Apr-2018 22:15:05 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[03-Apr-2018 22:15:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[03-Apr-2018 22:15:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[03-Apr-2018 22:15:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[03-Apr-2018 22:15:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[03-Apr-2018 22:15:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[04-Apr-2018 00:47:14 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[04-Apr-2018 00:47:14 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[04-Apr-2018 00:47:14 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[04-Apr-2018 00:47:14 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[04-Apr-2018 00:47:14 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[04-Apr-2018 00:48:25 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[04-Apr-2018 00:48:25 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[04-Apr-2018 00:48:25 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[04-Apr-2018 00:48:25 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[04-Apr-2018 00:48:25 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[05-Apr-2018 16:26:11 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[05-Apr-2018 10:26:12 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[05-Apr-2018 10:26:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[05-Apr-2018 10:26:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[05-Apr-2018 10:26:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[05-Apr-2018 10:26:13 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[05-Apr-2018 10:26:13 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[05-Apr-2018 10:26:25 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[05-Apr-2018 18:24:00 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[05-Apr-2018 12:24:00 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[05-Apr-2018 12:24:01 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[05-Apr-2018 12:24:01 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[05-Apr-2018 12:24:01 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[05-Apr-2018 12:24:01 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[05-Apr-2018 12:24:01 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[05-Apr-2018 12:24:09 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[06-Apr-2018 15:55:06 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-group-productivity.php on line 20
+[06-Apr-2018 15:55:06 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-group-productivity.php on line 22
+[06-Apr-2018 15:55:06 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-group-productivity.php on line 27
+[06-Apr-2018 15:55:06 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-group-productivity.php on line 35
+[06-Apr-2018 15:55:06 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-group-productivity.php on line 56
+[06-Apr-2018 15:55:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[09-Apr-2018 04:09:21 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[08-Apr-2018 22:09:21 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[08-Apr-2018 22:09:21 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[08-Apr-2018 22:09:21 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[08-Apr-2018 22:09:21 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[08-Apr-2018 22:09:21 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[08-Apr-2018 22:09:21 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[08-Apr-2018 22:09:21 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[08-Apr-2018 22:09:23 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[09-Apr-2018 15:47:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 16
+[09-Apr-2018 15:47:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 18
+[09-Apr-2018 15:47:05 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 20
+[09-Apr-2018 15:47:05 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/process.php on line 27
+[09-Apr-2018 15:47:05 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/process.php on line 36
+[10-Apr-2018 21:30:29 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 16
+[10-Apr-2018 21:30:29 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 18
+[10-Apr-2018 21:30:29 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 20
+[10-Apr-2018 21:30:29 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/process.php on line 27
+[10-Apr-2018 21:30:29 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/process.php on line 36
+[10-Apr-2018 21:30:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[10-Apr-2018 21:30:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[10-Apr-2018 21:30:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[10-Apr-2018 21:30:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[10-Apr-2018 21:30:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[12-Apr-2018 16:24:38 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/get-logs.php on line 7
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/get-logs.php on line 20
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/get-logs.php on line 38
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/get-logs.php on line 48
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[12-Apr-2018 10:24:38 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[12-Apr-2018 10:24:39 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[12-Apr-2018 10:24:39 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[12-Apr-2018 10:24:39 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[12-Apr-2018 10:24:39 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[12-Apr-2018 10:24:39 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[14-Apr-2018 17:14:17 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[14-Apr-2018 11:14:17 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[15-Apr-2018 16:55:02 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[15-Apr-2018 10:55:02 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[17-Apr-2018 06:07:59 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[17-Apr-2018 00:07:59 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[17-Apr-2018 00:07:59 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[17-Apr-2018 00:07:59 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[17-Apr-2018 00:08:00 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[17-Apr-2018 23:02:11 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[17-Apr-2018 17:02:12 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[19-Apr-2018 02:19:08 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[18-Apr-2018 20:19:09 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[20-Apr-2018 03:12:09 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[19-Apr-2018 21:12:09 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[21-Apr-2018 17:49:56 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[21-Apr-2018 17:49:56 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[21-Apr-2018 11:49:56 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[22-Apr-2018 16:18:13 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[22-Apr-2018 10:18:13 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[25-Apr-2018 04:35:45 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[24-Apr-2018 22:35:45 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[24-Apr-2018 22:35:45 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[24-Apr-2018 22:35:45 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[24-Apr-2018 22:35:47 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[28-Apr-2018 17:46:54 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[28-Apr-2018 11:46:55 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[29-Apr-2018 03:57:02 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[28-Apr-2018 21:57:02 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[28-Apr-2018 21:57:02 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[28-Apr-2018 21:57:02 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[28-Apr-2018 21:57:04 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[29-Apr-2018 18:49:47 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[29-Apr-2018 12:49:47 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[30-Apr-2018 03:22:27 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[29-Apr-2018 21:22:27 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[30-Apr-2018 10:11:08 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 16
+[30-Apr-2018 10:11:08 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 18
+[30-Apr-2018 10:11:08 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 20
+[30-Apr-2018 10:11:08 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/process.php on line 27
+[30-Apr-2018 10:11:08 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/process.php on line 36
+[30-Apr-2018 10:11:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[30-Apr-2018 10:11:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[30-Apr-2018 10:11:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[30-Apr-2018 10:11:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[30-Apr-2018 10:11:33 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[30-Apr-2018 10:12:20 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 16
+[30-Apr-2018 10:12:20 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 18
+[30-Apr-2018 10:12:20 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/process.php on line 20
+[30-Apr-2018 10:12:20 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/process.php on line 27
+[30-Apr-2018 10:12:20 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/process.php on line 36
+[06-May-2018 05:54:24 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[05-May-2018 23:54:24 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[05-May-2018 23:54:24 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[05-May-2018 23:54:24 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[05-May-2018 23:54:25 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[05-May-2018 23:54:25 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[11-May-2018 23:31:37 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[11-May-2018 23:31:37 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[11-May-2018 23:31:37 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[11-May-2018 23:31:37 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[11-May-2018 23:31:37 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[20-May-2018 14:06:45 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[20-May-2018 14:06:45 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[20-May-2018 14:06:45 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[20-May-2018 14:06:45 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[20-May-2018 14:06:45 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[20-May-2018 14:07:10 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[20-May-2018 14:07:10 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[20-May-2018 14:07:10 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[20-May-2018 14:07:10 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[20-May-2018 14:07:10 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[11-Jun-2018 05:58:22 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[10-Jun-2018 23:58:23 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[11-Jun-2018 05:59:43 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[10-Jun-2018 23:59:43 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[02-Jul-2018 16:09:54 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[02-Jul-2018 16:09:54 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[02-Jul-2018 16:09:54 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[02-Jul-2018 16:09:54 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[02-Jul-2018 16:09:54 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[02-Jul-2018 16:10:58 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[02-Jul-2018 16:10:58 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[02-Jul-2018 16:10:58 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[02-Jul-2018 16:10:58 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[02-Jul-2018 16:10:58 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[02-Jul-2018 16:11:55 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
+[02-Jul-2018 16:11:56 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
+[03-Sep-2018 01:21:58 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[02-Sep-2018 19:21:58 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[02-Sep-2018 19:22:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[02-Sep-2018 19:22:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[02-Sep-2018 19:22:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[02-Sep-2018 19:22:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[02-Sep-2018 19:22:12 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[09-Sep-2018 14:58:40 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[09-Sep-2018 14:58:40 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[09-Sep-2018 14:58:40 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[09-Sep-2018 14:58:40 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[09-Sep-2018 14:58:40 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[09-Sep-2018 14:59:02 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[09-Sep-2018 14:59:02 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[09-Sep-2018 14:59:02 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[09-Sep-2018 14:59:02 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[09-Sep-2018 14:59:02 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[09-Sep-2018 15:05:32 America/El_Salvador] PHP Notice:  Undefined index: f_supervisor_user in /home/irvincabezas/public_html/production/app/insert_dailyworkgroup.php on line 28
+[09-Sep-2018 15:05:32 America/El_Salvador] PHP Notice:  Undefined index: group_name in /home/irvincabezas/public_html/production/app/insert_dailyworkgroup.php on line 29
+[09-Sep-2018 15:05:54 America/El_Salvador] PHP Notice:  Undefined index: f_supervisor_user in /home/irvincabezas/public_html/production/app/insert_dailyworkgroup.php on line 28
+[09-Sep-2018 15:05:54 America/El_Salvador] PHP Notice:  Undefined index: group_name in /home/irvincabezas/public_html/production/app/insert_dailyworkgroup.php on line 29
+[10-Sep-2018 17:43:18 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[10-Sep-2018 11:43:18 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[10-Sep-2018 11:43:19 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[10-Sep-2018 11:43:19 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[10-Sep-2018 11:43:19 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[10-Sep-2018 11:43:19 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[10-Sep-2018 11:43:19 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[12-Nov-2018 22:57:18 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[12-Nov-2018 16:57:18 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[12-Nov-2018 16:57:19 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[12-Nov-2018 16:57:19 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[12-Nov-2018 16:57:19 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[12-Nov-2018 16:57:19 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[12-Nov-2018 16:57:19 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[12-Nov-2018 16:57:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[12-Nov-2018 16:57:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[12-Nov-2018 16:57:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[12-Nov-2018 16:57:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[12-Nov-2018 16:57:22 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[14-Nov-2018 00:33:12 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[13-Nov-2018 18:33:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[13-Nov-2018 18:33:12 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[13-Nov-2018 18:33:12 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[13-Nov-2018 18:33:13 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[13-Nov-2018 18:33:26 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[13-Nov-2018 18:33:26 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[13-Nov-2018 18:33:26 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[13-Nov-2018 18:33:26 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[13-Nov-2018 18:33:26 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[29-Jan-2019 23:05:14 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[29-Jan-2019 17:05:14 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[29-Jan-2019 17:05:14 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[29-Jan-2019 17:05:14 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[29-Jan-2019 17:05:15 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[29-Jan-2019 17:05:45 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[29-Jan-2019 17:05:45 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[29-Jan-2019 17:05:45 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[29-Jan-2019 17:05:45 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[29-Jan-2019 17:05:45 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[11-Feb-2019 16:59:11 UTC] PHP Notice:  Undefined index: Us3r_Typ3 in /home/irvincabezas/public_html/production/app/index.php on line 7
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/index.php on line 19
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/index.php on line 37
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/index.php on line 56
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: customerbox in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 25
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: procesos in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 26
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: produccion in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 27
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: tiempo in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 28
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: usuario in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 29
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: operarios in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 30
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: comments in /home/irvincabezas/public_html/production/app/insert_productivity.php on line 31
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 16
+[11-Feb-2019 10:59:12 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 18
+[11-Feb-2019 10:59:14 America/El_Salvador] PHP Notice:  Undefined index: Us3rN4mE in /home/irvincabezas/public_html/production/app/report-productivity.php on line 23
+[11-Feb-2019 10:59:14 America/El_Salvador] PHP Notice:  Undefined index: Us3r1D in /home/irvincabezas/public_html/production/app/report-productivity.php on line 31
+[11-Feb-2019 10:59:14 America/El_Salvador] PHP Fatal error:  Query Failed! SQL: SELECT m.id_message as messageid, m.f_user_sender as usersenderid, m.f_user_receiver,
+(select CONCAT(u.user_name,' ',u.user_last_name) from users as u,messages as m2 where messageid =m2.id_message and u.id_user = usersenderid) as f_user_sender_name,m.message,DATE_FORMAT(date_sent, '%d de %M a las %h:%i %p') as date_sent 
+FROM messages as m,users as u
+WHERE u.id_user = m.f_user_receiver and m.f_user_receiver = ; - Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4 in /home/irvincabezas/public_html/production/app/report-productivity.php on line 40
+[11-Feb-2019 10:59:43 America/El_Salvador] PHP Notice:  Undefined index: HTTP_CLIENT_IP in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 6
+[11-Feb-2019 10:59:43 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 8
+[11-Feb-2019 10:59:43 America/El_Salvador] PHP Notice:  Undefined index: HTTP_X_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 10
+[11-Feb-2019 10:59:43 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED_FOR in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 12
+[11-Feb-2019 10:59:43 America/El_Salvador] PHP Notice:  Undefined index: HTTP_FORWARDED in /home/irvincabezas/public_html/production/app/system/functions/functions.php on line 14
+[11-Feb-2019 11:24:02 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
+[11-Feb-2019 11:24:02 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
+[11-Feb-2019 11:24:08 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
+[11-Feb-2019 11:24:08 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
+[11-Feb-2019 11:24:30 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
+[11-Feb-2019 11:24:31 America/El_Salvador] PHP Notice:  Undefined index: name in /home/irvincabezas/public_html/production/app/views/general/menu.php on line 4
