@@ -62,3 +62,4 @@ $user="User";
 $pasword="pasword";
 $paswordr="Repeat pasword ";
 $tienecuenta="Do you already have an account?";
+$eliminar_cuenta="are you sure to delete it";

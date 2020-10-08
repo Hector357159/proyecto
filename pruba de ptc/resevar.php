@@ -23,7 +23,7 @@
 
         }else{
 
-            header("location: /login.php");
+            header("location: login.php");
 
         }
         
@@ -113,7 +113,7 @@
                                                     <div class="text-right">
                                                         <a class="btn btn-danger" href="PHP/reserva_usuario.php?is=<?php echo $rowp[0];?>" data-wizard="finish" role="button"> <?php echo $dinalisar; ?></a>
                                                         
-                                                        <button id="print" class="btn btn-default btn-outline" type="button"> <span><i class="fa fa-print"></i> <?php echo $Imprimi; ?>r</span> </button>
+                                                        <button id="print" class="btn btn-default btn-outline" type="button"> <span><i class="fa fa-print"></i> <?php echo $Imprimi; ?></span> </button>
                                                     </div>
                                                 </div>
                                             </div>

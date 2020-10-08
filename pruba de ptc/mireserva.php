@@ -43,7 +43,7 @@ $id=$_SESSION['user'];
      </head>
      <body>
        
-                  =
+                  
                             
                                 <div class="table-responsive manage-table">
                                         <table class="table" cellspacing="14">

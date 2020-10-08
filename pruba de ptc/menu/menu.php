@@ -40,9 +40,6 @@ include('requirelanguage.php');
       <li class="nav-item active">
         <a class="nav-link" href="indexCriente.php"><?php echo $home ; ?><span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="mireserva.php"><?php echo $reservas ; ?><span class="sr-only">(current)</span></a>
-      </li>
       <li>
                    <a  type="button" class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><?php echo $voleto; ?></a>
                  </li> 
@@ -132,10 +129,10 @@ include('requirelanguage.php');
           </div>
        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="logout.php"><?php echo $exit; ?></a>
+      <li class="nav-item active">
+        <a class="nav-link" href="mireserva.php"><?php echo $reservas ; ?><span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
+       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <?php echo  $idioma; ?>
         </a>
@@ -148,6 +145,10 @@ include('requirelanguage.php');
           </a>
         </div>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="logout.php"><?php echo $exit; ?></a>
+      </li>
+     
       
     </ul>
   </div>
@@ -235,5 +236,19 @@ include('requirelanguage.php');
     <script src="js/custom.min.js"></script>
     <!--Style Switcher -->
     <script src="../plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f7f28ee4704467e89f5c78f/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  
 
 

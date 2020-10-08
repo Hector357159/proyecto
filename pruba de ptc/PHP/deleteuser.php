@@ -1,6 +1,6 @@
 <?php 
 if (empty($_REQUEST['id'])) {
-	header( "location: ../reservasuser.php");
+	header( "location: ../indexAdmin.php");
 }else{
  
  include('../conexion.php');

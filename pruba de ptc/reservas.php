@@ -11,10 +11,16 @@
         session_start();
 
 
+        //resireccionar si no es admin
 
+         if ($_SESSION['tipo_session'] != 0 ) {
+            
+        header("location: indexCriente.php");
+
+        }
         //Validacion para que solo se pueda iniciar session por el login y no por url
 
-        if(isset($_SESSION['user'])){
+       if(isset($_SESSION['user'])){
 
 
 
@@ -34,12 +40,12 @@
      ?>
 </head>
 <body>
-	<div class="col-sm-12">
+
+                   <div class="col-sm-12">
                         <div class="white-box">
-                            <h3 class="box-title m-b-0">Row grouping </h3>
-                            <p class="text-muted m-b-30">Data table example</p>
+                           
                             <div class="table-responsive">
-                                <table id="example" class="table display">
+                                <table id="example23" class="display nowrap" cellspacing="0" width="100%">
                                     <thead>
                                         <tr>
                                             <th><?php echo $diasalida;  ?></th>
@@ -48,49 +54,42 @@
                                             <th><?php echo $Pais_entrada; ?></th>
                                             <th><?php echo $Nvoleto; ?></th>
                                             <th><?php echo $presio; ?></th>
-                                            <th></th>
                                         </tr>
                                     </thead>
                                     <tfoot>
-                                         <tr>
+                                        <tr>
                                             <th><?php echo $diasalida;  ?></th>
                                             <th><?php echo $diaentrada;  ?></th>
                                             <th><?php echo $Pais_salida; ?></th>
                                             <th><?php echo $Pais_entrada; ?></th>
                                             <th><?php echo $Nvoleto; ?></th>
                                             <th><?php echo $presio; ?></th>
-                                            <th></th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                          
-                                          
-                                                <?php 
+                                        <?php 
                                     $query=mysqli_query($conxi,"SELECT * FROM id_reserva ");
                                     while($array=mysqli_fetch_array($query)){
                                  ?>
-                                <tr>
-                                    <td><?php echo $array[3]; ?></td>
-                                    <td><?php echo $array[4] ;?></td>
-                                    <td><?php echo $array[5]; ?></td>
-                                    <td><?php echo $array[6] ;?></td>
-                                    <td><?php echo $array[7]; ?></td>
-                                    <td><?php echo $array[8] ;?></td>
-                                   
-                                    <td><a href="PHP/deleteuser.php?id=<?php echo $array[0];?>"><button class="btn btn-block btn-danger" id="btnDelete"><?php echo $CANCEL; ?></button></td></a>
-                                </tr>
-                                <?php 
+                                        <tr>
+                                            <td><?php echo $array[3]; ?></td>
+                                            <td><?php echo $array[4] ;?></td>
+                                            <td><?php echo $array[5]; ?></td>
+                                            <td><?php echo $array[6];?></td>
+                                            <td><?php echo $array[7]; ?></td>
+                                            <td><?php echo $array[8];?></td>                                            
+                                        </tr>
+                                        
+                                        </tr>
+                                    </tbody>
+                                     <?php 
                                     }
                                  ?>
-                                           
-                                
-                                       
-                                    </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-                   
+                </div>
                   <!-- /#wrapper -->
     <!-- jQuery -->
     <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>

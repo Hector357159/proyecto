@@ -12,8 +12,14 @@
 
 
 
-        //Validacion para que solo se pueda iniciar session por el login y no por url
+        //resireccionar si no es admin a indexCriente
 
+         if ($_SESSION['tipo_session'] != 0 ) {
+            
+        header("location: indexCriente.php");
+
+        }
+       //Validacion para que solo se pueda iniciar session por el login y no por url
         if(isset($_SESSION['user'])){
 
 
@@ -181,7 +187,7 @@
                                         ?>
                                         */?>
                                     <div id="escala_1">
-                                       <h1>escala 1</h1>
+                                       <h1><?php echo $escala1 ?></h1>
                                         <div class="col-md-12">
                                                     <div class="fomr-group has-success m-b-40">
                                                         <div class="input-daterange input-group" id="date-range">

@@ -49,35 +49,12 @@
 	 ?>
 </head>
 <body>
-    <?php 
-     
-
     
-         # code...$resultadoderesultado= mysql_result(result, row)s
-     
-     
-
-
-     /*$boleto = "SELECT * FROM tbboleto";
-     $resultboleto = mysqli_query($conxi, $boleto);
-     if($ru = mysqli_fetch_array($resultboleto)){
-        if (ru[3]=$destino1) {
-            LIKE '%$destino1'
-        }
-
-
-
-     $boleto = "SELECT * FROM tbboleto INNER JOIN tbescala on tbboleto.ID_boleto = tbescala.ID_boleto WHERE tbboleto.Psalida = '$origen1'" ;
-         $resultboleto = mysqli_query($conxi, $boleto);
-        if($rowP = mysqli_fetch_array($resultboleto)){
-    */
-
-    ?>
 	<div id="page-wrapper">
              <div class="container-fluid">
                  
                     <?php 
- $boleto="SELECT tbboleto.ID_boleto,tbboleto.DsalidaV,tbboleto.DllegadaV,tbboleto.Psalida,tbboleto.Pentrada,tbboleto.Hsalida,tbboleto.Hentrada,tbboleto.Tiempo,tbboleto.Presio,tbboleto.Aerolinia,tbboleto.Nvuelo,tbboleto.reserva,tbescala.ID_boleto,tbescala.DsalidaV,tbescala.DllegadaV,tbescala.Lsalida,tbescala.Lentrada,tbescala.Hsalida,tbescala.Hentrada,tbescala.Tiempo,tbescala.precio,tbescala.Aerolinia,tbescala.Nbuelo,tbescala.reserva FROM tbboleto INNER JOIN tbescala on tbboleto.ID_boleto = tbescala.ID_boleto WHERE tbboleto.DsalidaV = '$origen1' AND tbboleto.DllegadaV = '$destino1' OR tbescala.Lentrada = '$destino1' " or die(mysql_error());//consulta a mysql los datos que se riquieren
+ $boleto="SELECT tbboleto.ID_boleto,tbboleto.DsalidaV,tbboleto.DllegadaV,tbboleto.Psalida,tbboleto.Pentrada,tbboleto.Hsalida,tbboleto.Hentrada,tbboleto.Tiempo,tbboleto.Presio,tbboleto.Aerolinia,tbboleto.Nvuelo,tbboleto.reserva,tbescala.ID_boleto,tbescala.DsalidaV,tbescala.DllegadaV,tbescala.Lsalida,tbescala.Lentrada,tbescala.Hsalida,tbescala.Hentrada,tbescala.Tiempo,tbescala.precio,tbescala.Aerolinia,tbescala.Nbuelo,tbescala.reserva FROM tbboleto INNER JOIN tbescala on tbboleto.ID_boleto = tbescala.ID_boleto WHERE tbboleto.Psalida = '$origen1' AND tbboleto.Pentrada = '$destino1' OR tbescala.Lentrada = '$destino1' " or die(mysql_error());//consulta a mysql los datos que se riquieren
                                               $resultadoboleto = mysqli_query($conxi,$boleto);//consulta a la vase de datos si funciona 
                         for($k = 0; $k < 5; $k++){//es el siclo for
 
@@ -90,7 +67,7 @@
                                 for($i=0; $i < 4; $i++) {//es el siclo for
 
                                     if($row = mysqli_fetch_array($resultadoboleto)){///conviete los datos de la base de datos a  en booleano(comiensa con 0 despues el 1,2,3) para que se mas facil imprimir la informacion
-                                       if ($row['11'] == "NO") {
+                                       if ($row[11] == "NO") {
                                           if ( $row['4'] == $destino1) {
 
                             ?>
@@ -129,7 +106,7 @@
                                                     <span class="text-muted"><?php echo $row[8]." ".$row[9]." ".$row[10]; ?></span>
                                                 </div>
                                                 <div class="col-md-4">
-                                                   <a onclick="id_vehiculo('<?php echo $row[0]; ?>')"> <button type="button" class="btn btn-success btn-circle btn-lg"><?php echo $row[0]; ?></button></a>
+                                                   <a onclick="id_vehiculo('<?php echo $row[0]; ?>')"> <button type="button" class="btn btn-success btn-circle btn-lg"><?php echo $row[8]; ?></button></a>
                                                 </div>
                                             </div>
                                         </p></div>

@@ -71,9 +71,6 @@ include('requirelanguage.php');
         <a class="nav-link" href="indexAdmin.php"><?php echo $home ; ?><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="logout.php"><?php echo $exit; ?></a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="reservas.php"><?php echo $reservas; ?></a>
       </li>
       <li class="nav-item">
@@ -92,7 +89,9 @@ include('requirelanguage.php');
           </a>
         </div>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="logout.php"><?php echo $exit; ?></a>
+      </li>
     </ul>
     
   </div>
