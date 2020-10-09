@@ -12,6 +12,14 @@
         //Inicio de session
 
         session_start();
+        
+         //resireccionar si no es admin a indexAdmin
+
+         if ($_SESSION['tipo_session'] != 1 ) {
+            
+        header("location: indexAdmin.php");
+
+        }
 
 
 
